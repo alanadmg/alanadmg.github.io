@@ -24,16 +24,16 @@
 		text-decoration: none;
 		text-transform: uppercase;
 	}
-	
+
 		#menucont ul.menu li a:hover
 		{
-			background: #16a085;
+			background: #5E89A7;
 		}
-		
+
 			#menucont ul.menu li.active a,
 			#menucont ul.menu li.active a:hover
 			{
-				background: #16a085;
+				background: #5E89A7;
 				font-weight: 600;
 			}
 
@@ -44,7 +44,7 @@
 
 @media screen and (max-width: 768px)
 {
-	
+
     #menucont .menu
 	{
         display: none;
@@ -55,13 +55,13 @@
 	{
         display: block;
     }
-	
+
 	#menucont ul.menu li
 	{
 		position: relative;
 		float: none;
 	}
-		
+
 		#menucont ul.menu li, #menucont ul.menu ul li
 		{
 			display: block;
@@ -80,19 +80,19 @@
 				font-weight: 300;
 				text-transform: uppercase;
 			}
-			
+
 				#menucont ul.menu li.active a
 				{
 					font-weight: 600;
 					color: #FFF;
 				}
-			
+
 				#menucont ul.menu li a:hover
 				{
 					color: #FFF;
 					background: none;
 				}
-				
+
 					#menucont ul.menu > li:last-child a
 					{
 						margin: 0 0 20px 0;
@@ -127,6 +127,6 @@
 		margin: 0 0 0 8px;
 		font-size: 18px;
 	}
-	
+
 }
 

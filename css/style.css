@@ -70,7 +70,7 @@ body
 
 a
 {
-	color: #16A085;
+	color: #5E89A7;
 	text-decoration: none;
 }
 
@@ -123,7 +123,7 @@ img
 
 .bg3
 {
-	background: #16A085;
+	background: #5E89A7;
 }
 
 /* ==================================================
@@ -192,7 +192,7 @@ img
 
 #topcont
 {
-	padding: 45px 0;
+	padding: 40px 0;
 	text-align: left;
 }
 
@@ -211,7 +211,7 @@ img
 
 			#topcont #topleft h1 a
 			{
-				color: #444;
+				color: #5E89A7;
 			}
 
 				#topcont #topleft h1 a span
@@ -297,7 +297,7 @@ img
 
 #maincont
 {
-	padding: 60px 0;
+	padding: 10px 0;
 	min-height: 500px;
 }
 
@@ -505,24 +505,6 @@ textarea {
   vertical-align: top; }
 
 
-h1, h2, h3, h4, h5, h6, p {
-  font-family: 'proxima-nova-soft', sans-serif;
-  -webkit-font-smoothing: antialiased; }
-  h1:first-child, h2:first-child, h3:first-child, h4:first-child, h5:first-child, h6:first-child, p:first-child {
-    margin-top: 0; }
-  h1:last-child, h2:last-child, h3:last-child, h4:last-child, h5:last-child, h6:last-child, p:last-child {
-    margin-bottom: 0; }
-  h1 > small, h2 > small, h3 > small, h4 > small, h5 > small, h6 > small, p > small {
-    font-size: 0.65em;
-    color: #aaa; }
-
-h1, h2, h3, h4, h5, h6 {
-  font-weight: 600;
-  line-height: 1.3em;
-  color: #1b3544; }
-  h1.light, h2.light, h3.light, h4.light, h5.light, h6.light {
-    font-weight: 400;
-    color: #444; }
 
 
 .card,
@@ -537,25 +519,6 @@ h1, h2, h3, h4, h5, h6 {
 .row.grey {
   background: #f1f1fa; }
 
-p {
-  line-height: 1.5em; }
-
-p.code {
-  font-size: 0.8em;
-  font-family: "source-code-pro", monospace;
-  border: 1px solid #ddd;
-  background: #fff; }
-  @media (max-width: 760px) {
-    p.code {
-      overflow: auto; } }
-
-span.code {
-  font-family: "source-code-pro", monospace;
-  display: inline-block;
-  padding: 0 0.2em;
-  border: 1px solid #ddd;
-  background: #fff;
-  font-size: 0.9em; }
 
 input, textarea {
   font-size: 0.8em;
@@ -673,4 +636,5 @@ body.showOverlay {
       -webkit-animation-duration: 0.4s;
       -moz-animation-name: dropInLong;
       -webkit-animation-name: dropInLong; }
+
 
